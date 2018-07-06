@@ -7,18 +7,19 @@
 
 # 数据库films表各字段如下
 
-Film类       films字段   films字段类型
-id         --  id         int
-title      --  title	  varchar(64)
-director   --  director	  char(64)	
-actors     --  actors	  char(128)
-year       --  year	  int
-area       --  area       char(32)
-style	   --  style	  char(32)
-star       --  star	  double
-rating     --  rating	  int
-poster     --  poster	  varchar(128)
-quote	   --  quote      char(64)
+#   Film类       films字段   films字段类型
+
+    id         --  id         int
+    title      --  title	  varchar(64)
+    director   --  director	  char(64)	
+    actors     --  actors	  char(128)
+    year       --  year	  int
+    area       --  area       char(32)
+    style	   --  style	  char(32)
+    star       --  star	  double
+    rating     --  rating	  int
+    poster     --  poster	  varchar(128)
+    quote	   --  quote      char(64)
 
 数据库初始化代码如下
 drop database spider;
