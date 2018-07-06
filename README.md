@@ -7,7 +7,7 @@
 
 # 数据库films表各字段如下
 
-#   Film类       films字段   films字段类型
+    Film类       films字段   films字段类型
 
     id         --  id         int
     title      --  title	  varchar(64)
